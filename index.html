@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--standard encoding we should use is utf-8-->
+  <title>Jahnavi's personal site</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <img src="image1.jpg" alt="profile picture">
+      </td>
+      <td>
+        <h1>Jahnavi</h1>
+        <p><em>A CSE <strong>student</strong>.</em></p>
+        <!-- em should be preferred over i -->
+        <!-- strong should be preferred over b -->
+        <p>I like to sing and listen to songs. I like BTS💜.</p>
+      </td>
+    </tr>
+  </table> <!-- end of first table-->
+
+  <hr> <!--made into dotted small line using css-->
+
+  <h3>Favourite Books</h3>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Ramayana">Ramayana</a></li>
+    <li>Panchatantra</li>
+  </ul>
+
+  <hr> <!--made into dotted small line using css-->
+
+  <h3>Studies</h3>
+  <table cellspacing="10"> <!--u can write <table border="1"> for tabular view-->
+
+    <thead>
+      <tr>
+        <th>Years</th>
+        <th>Colleges</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>2017-2019</td>
+        <td>Random1 Junior College</td>
+      </tr>
+      <tr>
+        <td>2019-2023</td>
+        <td>Random2 University</td>
+      </tr>
+    </tbody>
+
+    <!-- <tfoot>...</tfoot> -->
+
+  </table> <!-- end of second table-->
+
+  <hr> <!--made into dotted small line using css-->
+
+  <h3>Skills</h3>
+
+  <table cellspacing="10">
+    <tr>
+      <td>Singing</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Piano</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Drawing</td>
+      <td>⭐⭐</td>
+    </tr>
+  </table> <!-- end of third table-->
+
+<!-- THE EXTRA SPECIAL TABLE (NESTED TABLE)
+  <table border="1">
+    <tr>
+
+      <td>
+        <table>
+          <tr>
+            <td>c-language</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>java</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td>singing</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>dancing</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+  </table>
+  -->
+
+  <hr> <!--made into dotted small line using css-->
+
+  <a href="myhobbies.html">My Hobbies</a> <!--press the link by holding ctrl key to open in new tab-->
+  <br><br>
+  <a href="mycontacts.html">My Contact Information</a>
+
+</body>
+
+</html>
+
+<!--  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* TO CREATE BOILERPLATE CODE, TYPE html AND PRESS ENTER IN THE FILE
+
+* THE TAGS LEARNT AND USED IN THIS CODE through HTML MODULE:
+<title>...</title>
+1. <h1>...</h1> (h1 to h6)
+2. <br>
+3. <p>...</p> ; <pre>...</pre>
+4. <em>...</em> and <i>...</i>
+5. <strong>...</strong> and <b>..💜⭐.</b>
+6. <hr>
+7. <ul>
+      <li>...</li>
+   </ul>
+8. <ol>
+      <li>...</li>  (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) for more examples
+   </ol>
+9. <img src="" alt=""> (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) for more knowledge
+10. <a href="link_destination">link_text(bluetext)</a>  (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) for more knowledge
+11. <a href="xxx.html">xxxxx</a> [to open another html file from a blue text]
+12. <table>
+
+      <thead>
+        <tr>
+          <th>...</th>
+          <th>...</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+
+      </tfoot>
+
+    </table>   (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) ->see attributes
+
+    another one:
+
+    <table>
+      <tr>
+        <td>...</td> - first element in first table row
+        <td>...</td> - second element in first table row
+      </tr>
+      <tr>
+        <td>...</td> - first element in second table row
+        <td>...</td> - second element in second table row
+      </tr>
+    </table>
+13.
+
+* EXTRA TAGS:
+1. <center>...</center>
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* CONCEPTS THROUGH CSS MODULE:
+1. INLINE CSS
+   <body style =""> (https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+   </body>
+2. https://developer.mozilla.org/en-US/docs/Web/CSS/color_value ****
+3. INTERNAL CSS
+   <style>..</style> inside <head>..</head>
+4. https://www.w3schools.com/cssref/css_default_values.asp
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+6. https://devdocs.io/css/height
+7. EXTERNAL CSS
+   <link rel="stylesheet" href="css/styles.css">
+8. https://www.w3schools.com/css/css_text.asp
+9. inline css - <body xxxx> of html file.
+    internal css - <style> in head of html file.
+    external css - styles in styles.css file.
+    priority order: inline > internal > external
+10. Anatomy of css:
+    (i)
+       selector //tag selectors
+      {
+        property1:value1; (properties should be in alplabetical order)
+        property2:value2;
+      }
+      ex: h1{color:red;} or body{background-color:red;}
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+11. <img class="" src="" alt=""> //adding class to already known <img> to differentiate b/w images
+    //class selectors
+12. <h1 id=""> //id selectors
+13. priority order: class selector > tag selector ; id selector > tag selector
+14. id vs class selectors:
+    We can only have a single instance of one particular id name inside a single page. so use for single element. can have more than 1 ids with different name
+    But class can be used to apply a style for a group of related elements.
+15. :hover //pseudo classes
+    ex: image:hover
+        {
+          background-color: gold;
+        }
+    means, when cursor is placed on image, its backgroung colour turns gold
+-->
